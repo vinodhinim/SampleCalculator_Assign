@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+    <line>
+      <![CDATA[Addition operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Addition operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Division operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Division operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Exponential operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Exponential operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Inverse operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Inverse operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Modulus operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Modulus operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Multiplication operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Multiplication operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Negation operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Negation operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Subraction operation through Data Provider is successful]]>
+    </line>
+    <line>
+      <![CDATA[Subraction operation through Data Provider is successful]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="257" started-at="2020-07-03T10:50:48 IST" finished-at="2020-07-03T10:50:48 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="257" started-at="2020-07-03T10:50:48 IST" finished-at="2020-07-03T10:50:48 IST">
+      <class name="calculatorTest.DataProvideconcept">
+        <test-method status="PASS" signature="add(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="add" duration-ms="23" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Addition operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="add(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="add" duration-ms="3" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Addition operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="div(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="div" duration-ms="2" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Division operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="div(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="div" duration-ms="6" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Division operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="exponent(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="exponent" duration-ms="2" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Exponential operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- exponent -->
+        <test-method status="PASS" signature="exponent(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="exponent" duration-ms="2" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Exponential operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- exponent -->
+        <test-method status="PASS" signature="inverse(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="inverse" duration-ms="2" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Inverse operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+        <test-method status="PASS" signature="inverse(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="inverse" duration-ms="2" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Inverse operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+        <test-method status="PASS" signature="mod(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="mod" duration-ms="2" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Modulus operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mod -->
+        <test-method status="PASS" signature="mod(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="mod" duration-ms="2" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Modulus operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mod -->
+        <test-method status="PASS" signature="mul(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="mul" duration-ms="3" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Multiplication operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="mul(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="mul" duration-ms="7" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Multiplication operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="negate(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="negate" duration-ms="6" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negation operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negate -->
+        <test-method status="PASS" signature="negate(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="negate" duration-ms="2" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negation operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negate -->
+        <test-method status="PASS" signature="sub(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="sub" duration-ms="2" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Subraction operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sub(int, int)[pri:0, instance:calculatorTest.DataProvideconcept@18eed359]" name="sub" duration-ms="6" started-at="2020-07-03T10:50:48 IST" data-provider="CalcuDataProvide" finished-at="2020-07-03T10:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Subraction operation through Data Provider is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- calculatorTest.DataProvideconcept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
